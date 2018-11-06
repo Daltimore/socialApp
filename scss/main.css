@@ -1,102 +1,136 @@
 body {
-  margin: 50px;
+  margin: 0;
+  width: 100%;
+  background-color: #fff;
+  border-top: gray solid 22px;
+  padding-top: 56px;
 }
 
-#containr {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-#markID {
-  font-weight: bold;
-  font-size: 25px;
-}
-
-#sider {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-#sider a {
-  color: #141313;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-decoration: none;
-}
-
-#sider a:active {
-  text-decoration: underline;
-}
-
-#sider #dotted {
-  border-top: 1px dotted #000;
-  border-bottom: 1px dotted #000;
+header {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-#sider #dott {
+a {
+  color: #000;
+}
+
+article .date {
+  color: #8c2424;
+  font-weight: bold;
+}
+
+article .divider {
+  width: 70%;
+  margin: 0 auto;
+  border: solid gray 1.1px;
+}
+
+article #blog-image {
+  max-width: 100%;
+}
+
+article p {
+  text-align: justify;
+  font-size: 20px;
+}
+
+article .social-button {
+  color: white;
+  background-color: darkblue;
+}
+
+aside {
+  text-align: center;
+  border-right: 1px solid #000;
+}
+
+aside .aside-input::-webkit-input-placeholder {
+  text-align: center;
+}
+
+aside .aside-input:-ms-input-placeholder {
+  text-align: center;
+}
+
+aside .aside-input::-ms-input-placeholder {
+  text-align: center;
+}
+
+aside .aside-input::placeholder {
+  text-align: center;
+}
+
+aside .aside-btn {
+  background-color: grey;
+  height: 40px;
+  width: 50%;
+  margin: 10px;
+  color: #fff;
+}
+
+aside a:hover {
+  border-top: 1px dotted #000;
   border-bottom: 1px dotted #000;
+  color: #000;
+}
+
+aside .bordered-top-bottom {
+  border-top: 1px dotted #000;
+  border-bottom: 1px dotted #000;
+}
+
+aside .dotted-line {
+  border-bottom: 1px dotted #000;
+  border-bottom-width: 1px;
   padding-bottom: 10px;
 }
 
-#sider #social {
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+aside .founder-details {
+  font-size: 15px;
 }
 
-#sider #social1 {
-  display: -ms-grid;
-  display: grid;
+.date {
+  color: #8c2424;
+  font-weight: 300;
 }
 
-#sider #inputStyle {
+textarea.form-control {
+  background-color: #C4C4C4;
+  border-radius: 0px;
+}
+
+#subtn {
+  padding: 10px 40px 10px 40px;
+}
+
+.main-body {
   width: 100%;
-  border: 1px solid #000;
-  padding: 10px;
+  margin-left: 60px;
 }
 
-#sider ::-webkit-input-placeholder {
+#main-content {
   text-align: center;
+  background: #C4C4C4;
+  padding: 25px;
+  width: 100%;
 }
 
-#sider :-moz-placeholder {
-  /* Firefox 18- */
-  text-align: center;
+#main-input {
+  position: relative;
 }
 
-#sider ::-moz-placeholder {
-  /* Firefox 19+ */
-  text-align: center;
+.clear {
+  border: 1px solid black;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 5px;
 }
 
-#sider :-ms-input-placeholder {
-  text-align: center;
-}
-
-#sider #form {
-  margin-top: 20px;
-  color: aliceblue;
-  background-color: #696666;
-  width: 90%;
-}
-
-hr {
-  color: #000;
-  -webkit-transform: rotate(90deg) translateY(101px) translateX(5px);
-          transform: rotate(90deg) translateY(101px) translateX(5px);
-  width: 100px;
+#subscribebtn {
+  background: #646262;
+  border: none;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
